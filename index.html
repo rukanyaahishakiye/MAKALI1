@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer>
+        function darkmode() {
+            document.getElementById("ma_page").style.background = 'black';
+            document.getElementById("titre").style.color = 'white';
+            document.getElementById("titre2").style.color = "white";
+            document.getElementById("para").style.color = "white";
+            document.getElementById("titre2").style.color = "white";
+            document.getElementById("h").style.color = "white";
+            document.getElementById("cool").style.color = "white";
+           
+            
+
+
+        }
+        function lightmode() {
+            document.getElementById("ma_page").style.background = "white";
+            document.getElementById('titre').style.color = "black";
+            document.getElementById('titre2').style.color = "black";
+            document.getElementById('para').style.color = "black";
+        }
+        function change1() {
+            document.getElementById("img").src = "clubbear.jpg"
+        }
+        function customised() {
+            document.getElementById("ma_page").style.backgroundImage= "url(fire2.jpg)";
+            document.getElementById("ma_page").style.backgroundPosition="contain" ;
+            document.getElementById("px").style.color = "white";
+
+
+           
+        }
+        function change2() {
+            document.getElementById("img").src = "club night.jpg"
+        }
+    </script>
+</head>
+
+<body id="ma_page">
+    <div class="tmc">
+        <div id="connexion">
+            <span>
+                <a href="connexion.html"><img id="seconnecter" src="connexi.png" /></a>
+                
+            </span>
+
+        </div>
+        <ul class="menu">
+            <span>
+                <li id="a"><a href="#">ACCUEIL</a> </li>
+            </span>
+            <span>
+                <li id="b"><a href="service.html">SERVICE</a> </li>
+            </span>
+            <span>
+                <li id="c"><a href="contact.html">CONTACT</a> </li>
+            </span>
+            <span>
+                <li id="d"><a href="#">APROPOS</a> </li>
+            </span>
+            
+       
+
+
+        </ul>
+        <form>
+            <label>  . recherche  </label>
+            <input type="search" name="d" placeholder="recherch...">
+        </form>
+
+    </div>
+    <div class="logo"> <img class="image" src="PILILOGO.png" alt="logo pilipili"></div>
+
+    <h1 id="titre"> OK PILIPILI PROFITEZ VOS WEEKEND A FOND, Goma</h1>
+    <div id="texte"></div>
+
+    <h2 id="titre2">Bienvenue chez nous</h2>
+
+    <div id="kin_image">
+        <div id="somme">
+            <marquee id="nous" direction="down">Qui sommes-nous?</marquee>
+        </div>
+        <div id="sur_kin">
+            <button onclick="darkmode();">mode sombre</button>
+            <button onclick="lightmode();">mode claire</button>
+            <button onclick="customised();">customiser</button>
+
+
+            <div id="px">
+                <h3> Qu’est-ce que le Pili Pili?</h3>
+                <p> En effet le OK pili pili se refere aux piments qui sont moelleux et délicieusement parfumés !<br>
+
+                    À quelle occasion mange-t-on des Pili Pili En Afrique? Les pili pili<br> sont servis à toutes les
+                    occasions ! À l’apéritif lors des repas festifs, en guise d’en-cas lorsqu’on mange<br> sur le pouce,
+                    à emporter, en plat, servis avec une salade de légumes… Ils se dégustent tel quel ou<br> trempés
+                    dans un peu de purée de piment maison pour les amateurs de piquant !</p>
+                <p id="para">Les Pili Pili ou pastels, sont des petits chaussons de pâte fait
+                    maison garnis d’une farce de bœuf, de poulet, de thon ou de légumes.
+                    C'est une spécialité très populaire en Afrique. Sénégal, Cameroun,
+                    Mali ou encore la Mauritanie… Chaque pays possède sa propre recette e
+                    t c’est souvent l’assaisonnement qui change d’un pays à l’autre.</p>
+            </div>
+            <details>
+                <div>
+                    <P>
+                    <h5> Q1<br>
+                        Quel est le numéro de téléphone de OK Pili Pili?</h5>
+                    Le numéro de téléphone de OK Pili Pili est 0993 382 222.
+                    <h5> Q2<br>
+                        Où est située OK Pili Pili ?</h5>
+                    OK Pili Pili est située à Near Standard Bank No-24, Goma, Congo - Kinshasa, Nord-Kivu.
+                    <h5>Q3<br>
+                        Existe-t-il un contact principal pour OK Pili Pili?</h5>
+                    Vous pouvez contacter OK Pili Pili par téléphone au numéro 0993 382 222.
+                    <h5> Q4<br>
+                        Quelle est l'adresse Internet (URL) de OK Pili Pili?</h5>
+                    Le site Web de OK Pili Pili est ok-pili-pili.business.site.
+                    <h5> Q5<br>
+                        OK Pili Pili effectue-t-elle des livraisons ?</h5>
+                    Oui, OK Pili Pili propose la livraison en option. Appelez 0993 382 222 pour plus d'informations.</P>
+
+                </div>
+            </details>
+
+            
+                <div id="sommes">
+                    <marquee  direction="left" >
+                        <div id="sur_kin">
+                            <marquee direction="up">
+                                <p id="cool">savourez avec vos proches</p>
+                            </marquee>
+                            <marquee direction="down" scrollamount="6"> <p id="vie">la vie est courte</p></marquee>
+                        </div>
+                        <img class="img" src="clubbear.jpg" alt="">
+                        <img class="img" src="club night.jpg" alt="">
+                        <img class="img" src="pilipili.jpg" alt="">
+                        <img class="img" src="jack.jpg" alt="">
+                        <img class="img" src="12.jpg" alt="">
+                        <img class="img" src="14.jpg" alt="">
+                        <img class="img" src="13.jpg" alt="">
+                        <img class="img" src="15.jpg" alt="">
+                    </marquee>
+                </div>
+                <button onmouseover="change1();">++</button>
+                <button onmouseover="change2();">++#</button>
+                <div>
+                    <h3 id="h">MEMBRES DU GROUPE 13</h3>
+                </div>
+                <div class="card"> 
+                    <div class="a"> <img class="image" src="CCZO3432.JPG" alt="">
+                        <legend class="post">jephtant kahalira</legend> 
+                    </div>
+                    <div class="b"> <img class="image" src="frank.jpg" alt="">
+                        <legend class="post">safari yamaghen bin_frank</legend>
+                    </div>
+                    <div class="c"> <img class="image" src="OIUT7427.JPG" alt="">
+                        <legend class="post">ruako kombatani merger</legend>
+                    </div>
+                    <div class="d"> <img class="image" src="UFZH0991.JPG" alt="">
+                        <legend class="post">mwiza muhire victorine</legend>
+                    </div>
+                    <div class="e"> <img class="image" src="IMG_E1856.JPG" alt="">
+                        <legend class="post">rukanya kazige dieumerci</legend>
+                    </div>
+                    <div class="f"> <img class="image" src="XLSN7947.JPG" alt="">
+                        <legend class="post">telembu sumbu david</legend>
+                    </div>
+                    <div class="g"> <img class="image" src="BSTO2437.JPG" alt="">
+                        <legend class="post">rugendabanga zihalirwa darius</legend>
+                    </div>
+                    <div class="h"> <img class="image"  src="CWPT6975.JPG" alt="">
+                        <legend class="post">shukuru muzikale</legend>
+                    </div>
+                    <div class="i"> <img class="image" src="abel.jpg" alt="">
+                        <legend class="post">shyaka abel</legend> 
+                    </div>
+                    <div class="i"> <img class="image" src="soki.jpg" alt="image laetitia">
+                        <legend class="post">soki mwalisa</legend> 
+                    </div>
+                
+                
+
+                   
+                <script>
+                    var mots = ["Bienvenu chez OK Pilipili club night"]
+                    var vitesseEciture = 200;
+                    var divTexte = document.getElementById("texte");
+                    var indexMot = 0;
+                    var indexLettre = 0;
+                    function ecrireMot() {
+                        if (indexLettre < mots[indexMot].length) {
+                            divTexte.innerHTML += mots[indexMot].charAt(indexLettre);
+                            indexLettre++; setTimeout(ecrireMot, vitesseEciture);
+                        } else {
+                            indexMot++;
+                            if (indexMot >=mots.length){
+                                indexMot=0;
+                            }
+                            indexLettre=0;
+                            setTimeout(effacerMot,1000);
+        }
+
+                    }
+                    function effacerMot(){
+                        if(indexLettre<mots[indexMot].length){
+                            divTexte.innerHTML=divTexte.innerHTML.slice(0,-1);
+                            indexLettre++;setTimeout(effacerMot,vitesseEciture / 2);     }
+                    }
+                    {
+                        setTimeout(ecrireMot,vitesseEciture);
+                    }
+                    ecrireMot();
+                </script>
+</body>
+
+</html>

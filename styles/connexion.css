@@ -1,0 +1,69 @@
+body{
+  margin:10%;
+  position: absolute;
+  left: 320px;
+  top: -50px;
+}
+#corps{
+  background-color:#e9a911;
+  margin: 5%;
+  width:450px;
+  height: 550px;
+  border:1px solid black;
+  border-bottom-left-radius: 150px;
+  border-top-right-radius: 150px;
+  box-shadow: 0 0 10px 10px black;
+  text-align: center;
+  align-items: center;
+}
+.titre{
+  text-align:center;
+  font-size: 25px;
+  font-family: times new roman ;
+  color:black;
+}
+.input1, .input2{
+  width:350;
+  height: 68 px;
+  margin: 10px;
+  background-color:#0033;
+  font-size: 40px
+}
+.bbb{
+  margin: 20px;
+  color:skyblue;
+  font-family: cursive;
+  
+}
+.input3{
+  margin-left: 289px
+  
+}
+#cmp{
+  margin-left: 40%;
+  text-decoration:none;
+}
+#image1{
+  margin-left: 20px;
+}
+.nom , .code{
+  text-align: center
+}
+#affichage{
+  margin-left: 20px;
+}
+.bbb{
+  margin: 20px;
+  color:skyblue;
+  font-family: arial;
+  text-decoration: none;
+}
+#pt{
+  text-decoration: none;
+}
+
+
+
+
+
+
